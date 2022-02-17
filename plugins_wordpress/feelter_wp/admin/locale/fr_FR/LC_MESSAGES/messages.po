@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-08-10 16:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: class-feelter_wp-admin.php:163
+msgid "Select language"
+msgstr "Choisir la langue"
+
+#: class-feelter_wp-admin.php:176
+msgid "Show widget"
+msgstr "Afficher le widget"
+
+#: class-feelter_wp-admin.php:187
+msgid "Select widget location"
+msgstr "Sélectionnez l'emplacement du widget"
+
+#: class-feelter_wp-admin.php:200
+msgid "Select anchor location"
+msgstr "Sélectionnez l'emplacement de l'ancre"
+
+#: class-feelter_wp-admin.php:213
+msgid "Select type of the widget"
+msgstr "Sélectionnez le type de widget"
+
+#: class-feelter_wp-admin.php:227
+msgid "Select template"
+msgstr "Sélectionnez le modèle"
+
+#: class-feelter_wp-admin.php:303
+msgid "Please Choose"
+msgstr "Choisissez s'il vous plaît"
+
+#: class-feelter_wp-admin.php:332
+msgid "Reset Settings"
+msgstr "Réinitialiser les options"
+
+#: feelter_wp-admin-display.php:39
+msgid "Not Connected"
+msgstr "Pas connecté"
+
+#: feelter_wp-admin-display.php:40
+msgid "Connected"
+msgstr "Liée"
+
+#: feelter_wp-admin-display.php:72
+msgid "Feelter Widget Settings"
+msgstr "Paramètres du widget Feelter"
+
+#: feelter_wp-admin-display.php:79
+msgid "Status"
+msgstr "Statut"
+
+#: feelter_wp-admin-display.php:81
+msgid "This status showing that you currently connected and authorized on our server"
+msgstr "Ce statut indiquant que vous êtes actuellement connecté et autorisé sur notre serveur"
+
+#: feelter_wp-admin-display.php:85
+msgid "Key"
+msgstr "Clé"
+
+#: feelter_wp-admin-display.php:87
+msgid "In this section you can get and enter your API key"
+msgstr "Dans cette section, vous pouvez obtenir et saisir votre clé API"
+
+#: feelter_wp-admin-display.php:90
+msgid "To reset the connection you can left the field blank and press connect."
+msgstr "Pour réinitialiser la connexion, vous pouvez laisser le champ vide et appuyer sur connecter."
+
+#: feelter_wp-admin-display.php:92
+msgid "Get your API key here."
+msgstr "Obtenez votre clé API ici."
+
+#: feelter_wp-admin-display.php:99
+msgid "Connect"
+msgstr "Relier"
+
+#: feelter_wp-admin-display.php:112
+msgid "Update Store"
+msgstr "Mettre à jour le magasin"
+
+#: feelter_wp-admin-display.php:208
+msgid "OFF"
+msgstr "DÉSACTIVÉ"
+
+#: feelter_wp-admin-display.php:211
+msgid "ON"
+msgstr "SUR"
+
+#: feelter_wp-admin-display.php:246
+msgid "Reset settings"
+msgstr "Réinitialiser les options"
+
+#: feelter_wp-admin-display.php:247
+msgid "Please confirm settings reset. This will be automatically closed in 10 seconds"
+msgstr "Veuillez confirmer la réinitialisation des paramètres. Celui-ci sera automatiquement fermé dans 10 secondes"
+
+#: feelter_wp-admin-display.php:253
+msgid "Apply"
+msgstr "Appliquer"
+
+#: feelter_wp-admin-display.php:260
+msgid "Cancel"
+msgstr "Annuler"
+
+#: feelter_wp-admin-display.php:264
+msgid "Action canceled!"
+msgstr "Action annulée!"
+
+#: feelter_wp-admin-display.php:268
+msgid "Ok"
+msgstr "D'accord"
+
+#: settings_objects.php:52
+msgid "After product summary"
+msgstr "Après le résumé du produit"
+
+#: settings_objects.php:57
+msgid "After product"
+msgstr "Après produit"
+
+#: settings_objects.php:62
+msgid "After main content"
+msgstr "Après le contenu principal"
+
+#: settings_objects.php:75
+msgid "Before single product"
+msgstr "Avant produit unique"
+
+#: settings_objects.php:80
+msgid "Before single product summary"
+msgstr "Avant le résumé du produit unique"
+
+#: settings_objects.php:85
+msgid "In single product summary"
+msgstr "En résumé produit unique"
+
+#: settings_objects.php:90
+msgid "Before add to cart form"
+msgstr "Avant le formulaire d'ajout au panier"
+
+#: settings_objects.php:95
+msgid "In product tumbnails"
+msgstr "Dans les vignettes des produits"
+
+#: settings_objects.php:100
+msgid "Before variations form"
+msgstr "Avant la forme des variations"
+
+#: settings_objects.php:105
+msgid "Before add to cart button"
+msgstr "Avant le bouton Ajouter au panier"
+
+#: settings_objects.php:110
+msgid "Before single variation"
+msgstr "Avant variation unique"
+
+#: settings_objects.php:115
+msgid "In single variation"
+msgstr "En une seule variante"
+
+#: settings_objects.php:120
+msgid "Before add to cart quantity"
+msgstr "Avant d'ajouter au panier quantité"
+
+#: settings_objects.php:125
+msgid "After add to cart quantity"
+msgstr "Après ajouter au panier quantité"
+
+#: settings_objects.php:130 settings_objects.php:135
+msgid "After single variation"
+msgstr "Après une seule variation"
+
+#: settings_objects.php:197
+msgid "Carusel"
+msgstr "Carrousel"
+
+#: settings_objects.php:202
+msgid "Pop up"
+msgstr "Surgir"
+
+#: settings_objects.php:207
+msgid "Social Wall"
+msgstr "Mur social"

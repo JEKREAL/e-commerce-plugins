@@ -1,0 +1,334 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ * {
+   box-shadow: none;
+}
+/* .main {
+   display: flex;
+   flex-direction: row;
+} */
+
+body {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   width: 100%;
+   height: 100vh;
+   background-color: white;
+   font-size: 17px;
+}
+
+.wrap {
+   max-width: 850px;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.api_switch_holder {
+   display: flex;
+   padding: 0 20px;
+   border-radius: 10px;
+   margin-bottom: 30px;
+   box-shadow: -8px -8px 15px rgba(255,255,255,.7),
+               10px 10px 10px rgba(0,0,0, .3),
+               inset 8px 8px 15px rgba(255,255,255,.7),
+               inset 10px 10px 10px rgba(0,0,0, .3);
+   justify-content: space-between;
+   align-items: center;
+}
+
+.switch-toggle {
+   height: 40px;
+}
+
+.switch-toggle input[type="checkbox"] {
+   position: absolute;
+   opacity: 0;
+   z-index: -2;
+}
+
+.switch-toggle input[type="checkbox"] + label {
+   position: relative;
+   display: inline-block;
+   width: 100px;
+   height: 40px;
+   border-radius: 20px;
+   margin: 0;
+   cursor: pointer;
+   box-shadow: inset -8px -8px 15px rgba(255,255,255,.6),
+               inset 10px 10px 10px rgba(0,0,0, .25);
+   
+}
+
+.switch-toggle input[type="checkbox"] + label::before {
+   position: absolute;
+   /* content: 'OFF'; */
+   font-size: 13px;
+   text-align: center;
+   line-height: 25px;
+   top: 8px;
+   left: 8px;
+   width: 45px;
+   height: 25px;
+   border-radius: 20px;
+   background-color: #d1dad3;
+   box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+               3px 3px 5px rgba(0,0,0, .25);
+   transition: .3s ease-in-out;
+}
+
+.switch-toggle input[type="checkbox"]:checked + label::before {
+   left: 50%;
+   /* content: 'ON'; */
+   color: #fff;
+   background-color: #2271b1;
+   box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+               3px 3px 5px #2271b1;
+}
+
+/*TOGGLE*/
+/*TOGGLE2*/
+
+.switch-toggle2 {
+   height: 40px;
+   margin-left:75px;
+}
+
+.switch-toggle2 input[type="checkbox"] {
+   position: absolute;
+   opacity: 0;
+   z-index: -2;
+}
+
+.switch-toggle2 input[type="checkbox"] + label {
+   position: relative;
+   display: inline-block;
+   width: 115px;
+   height: 40px;
+   border-radius: 20px;
+   margin: 0;
+   cursor: pointer;
+   box-shadow: inset -8px -8px 15px rgba(255,255,255,.6),
+               inset 10px 10px 10px rgba(0,0,0, .25);
+   
+}
+
+/*TOGGLE2*/
+.switch-holder1 {
+   max-height: 450px;
+   height:100%;
+   padding: 20px 20px;
+   border-radius: 10px;
+   box-shadow: -8px -8px 15px rgba(255,255,255,.7),
+               10px 10px 10px rgba(0,0,0, .3),
+               inset 8px 8px 15px rgba(255,255,255,.7),
+               inset 10px 10px 10px rgba(0,0,0, .3);
+   
+}
+
+.switch-label1 {
+   width: 200px;
+}
+
+.wrap1 {
+   max-width: 350px;
+   width: 100%;
+   max-height: 750px;
+   height: 100%;
+}
+
+#my_submit{
+   height: 35px;
+   width: 103.28px;
+   background-color: #2271b1;
+   border: none;
+   color: #fff;
+   box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+               3px 3px 5px #2271b1;
+               font-family: 'Poppins', sans-serif;
+ 
+}
+#mysubmit2{
+   background-color: #2271b1;
+   border: none;
+   color: #fff;
+   box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+               3px 3px 5px #2271b1;
+}
+#my_submit:hover {
+   background-color: #065cb3;
+}
+#div_submit {
+   margin-top: -88px;
+}
+#header {
+   /*background: -webkit-linear-gradient(to right, red,yellow, green);*/
+   /*-webkit-background-clip: text;*/
+   /*-webkit-text-fill-color: transparent;*/
+   /*background: linear-gradient(red,yellow,green);*/
+}
+
+#reset {
+   margin: 30px 1px 13px 450px;
+   height: 35px;
+   width: 103.28px;
+   background-color: #2271b1;
+   border: none;
+   border-radius: 3.5px;
+   color: #fff;
+   box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+               3px 3px 5px #2271b1;
+    padding: 0 0 0 4px;
+    font-size: 13px;
+    line-height: 2.15384615;
+    font-family: 'Poppins', sans-serif;
+}
+
+#reset:hover {
+   background-color: #065cb3;
+   /* cursor: pointer; */
+}
+#reset:disabled {
+   color: #a7aaad!important;
+   background: #f6f7f7!important;
+   border-color: #dcdcde!important;
+   box-shadow: none!important;
+   text-shadow: none!important;
+   cursor: default;
+}
+
+.breadcrumbs {
+   width:1000px;
+}
+
+.gradient-text {
+   margin-left: 270px;
+   background: rgb(246,0,0);
+   background: linear-gradient(90deg, rgba(246,0,0,1) 0%, rgb(212, 203, 28) 27%, rgba(0,179,60,1) 30%);;
+   /* Set the background size and repeat properties. */
+   background-size: 100%;
+   background-repeat: repeat;
+   /* Use the text as a mask for the background. */
+   /* This will show the gradient as a text color rather than element bg. */
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent; 
+   -moz-background-clip: text;
+   -moz-text-fill-color: transparent;
+ }
+  /*LOADER*/ 
+#replace_submit{
+  position: relative;
+   top: 50%;
+   left: 30%;
+
+}
+
+/* HELP BUTTON */
+
+#main1bannerbottom
+{
+  margin-left:32px;
+}
+
+.bannerbottom1{
+  border-radius: 5px;
+  margin-top: 0px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  width: 250px;
+}
+ 
+/*.close7 {*/
+/*  background-color:#00b33c;*/
+/*  width:2em;*/
+/*  height:1.3em;  */
+/*  text-align:center;*/
+/*  margin-left:240px;*/
+/*  border-radius: 3.5px;*/
+/*}*/
+
+/*.close7:hover {  */
+/*    background-color: #065cb3;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.close7 b{*/
+/*    color: #fff;   */
+/*    font-weight: none;*/
+/*}*/
+
+#info_header {
+    display:flex;
+    flex-direction: row;
+}
+#help {
+    border-radius: 50%;
+    background: #2271b1;
+    display:block;
+    /*padding:8px 16px;*/
+    width:20px;
+    height:20px;
+    border: none;
+    color: #fff;
+    font-size:15px;
+    box-shadow: -3px -3px 5px rgba(255,255,255,.5),
+               3px 3px 5px #2271b1;
+    pointer-events: none;        
+}
+
+#help:hover {
+   background-color: #065cb3;
+   cursor: pointer;
+}
+
+
+.dropdown{
+   display:inline-block;
+   position: relative; 
+   top: -20px;
+   margin-left:590px;
+ }
+
+
+  .dropdown div{
+    background-color:#fff;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    z-index:1;
+    visibility:hidden;
+    position:absolute;
+    min-width:100%;
+    opacity:0;
+    transition:.3s;
+  }
+  
+  .dropdown:hover div{
+    visibility:visible;
+    opacity:1;
+  }
+  
+  .dropdown div a:hover{
+    background-color:#065cb3;
+    color:#fff;
+  }
+
+  #storefront { 
+     flex-direction: column; 
+     margin-top:-40px;
+     margin-left:45px;
+     display: flex;
+     
+     /* justify-content: space-between; */
+  }
+
+  #controls{
+   font-size: 20px;
+   position:absolute;
+   top:50;
+  }
+
